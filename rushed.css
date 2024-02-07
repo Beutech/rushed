@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+.rushed{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(5, 5, 34);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.secondrushed{
+     width: 35vw;
+     height: 32vh;
+     background-color: hsl(218, 23%, 16%);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     border-radius: 15px;
+}
+.advice{
+    color: hsl(150, 100%, 66%) ;
+    font-size: 16px;font-weight: 500;
+    margin-top: 10px
+}
+.itiseasy{
+    color:hsl(193, 38%, 86%);
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.line{
+    height: 1px;
+    background-color: hsl(217, 19%, 24%);
+    margin-top: 10px;
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: hsl(150, 100%, 66%);
+    margin-top: 10px;
+}
